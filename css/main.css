@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+    outline: none;
+}
+html, body {
+    text-align: center;
+    height: 100%;
+    background-color: #fcfcff;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-weight: 400;
+}
+header, footer, article, aside {
+    display: block;
+}
+header .logo{
+    height: 100px;
+    width: 142px;
+}
+header {
+    background-color: #e0e0e4;
+    padding: 20px;
+    overflow: auto;
+    color:  white;
+}
+#nav {
+    background-color: #191909;
+    font-family: 'Oswald', Helvetica, Arial, Verdana, sans-serif;
+}
+#nav ul {
+    margin: 0px;
+    padding: 6px;
+    list-style-type: none;
+    text-align: center;
+}
+#nav ul li {
+    display: inline;
+    padding: 0px 24px;
+}
+#nav ul li a {
+    text-decoration: none;
+    height: 20px;
+    color: white;
+    padding: 2px 6px;
+}
+#nav ul li a:hover {
+    background: #ddd;
+    color: #224;
+}
+#nav ul li a:active {
+    background: #999;
+    color: #fff;
+}
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -30px;
+    position: relative;
+    width: 100%;
+}
+h1, h2 {
+    font-family: 'Oswald', Helvetica, Arial, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+.tv-app-icon {
+    float: left;
+}
+.tv-app-icon img {
+    height: 120px;
+    width: 200px;
+    box-shadow: 10px 10px 5px #888;
+    margin-top: 30px;
+    display: block;
+}
+.ios-app-icon {
+    float: left;
+}
+.ios-app-icon img{
+    height: 72px;
+    width: 72px;
+    /*box-shadow: 10px 10px 5px #888;*/
+    display: block;
+    margin-top: 30px;
+}
+.app-info {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 750px; 
+    text-align: left;   
+}
+.app-info-content {
+    margin-left: 100px;
+}
+.app-info-content a {
+    text-decoration: none;
+    color: #191909;
+}
+.app-info-content p {
+    padding-bottom: 10px;
+}
+.content {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    width: 86%; 
+}
+.content p {
+    margin-bottom: 20px;
+}
+@media only screen and (max-width : 750px) {
+    .tv-app-icon {
+        float: none;
+        margin: auto;
+    }
+    .tv-app-icon img {
+        display: inline;
+        margin-bottom: 20px;
+    }
+    .ios-app-icon {
+        float: none;
+        margin: auto;
+    }
+    .ios-app-icon img {
+        display: inline;
+        margin-bottom: 20px;
+    }
+    .app-info {
+        width: 300px;    
+    }
+    .app-info-content {
+        margin: auto;
+    }
+}
+footer, .push {
+    height: 30px; 
+}
+footer {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #191909;
+}
+footer p {
+    padding: 5px 0 0;
+    color: #fff;
+    text-align: center;
+}
